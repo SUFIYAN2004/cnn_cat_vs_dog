@@ -25,9 +25,9 @@ Important: The application requires a trained model file to function.
 
 Ensure you have your trained Keras model file saved.
 
-Rename your model file to model.keras (or update the filename in app.py to match your file).
+Rename your model file to model.h5 
 
-Place model.keras in the same directory as app.py.
+Place model.h5 in the same directory as app.py.
 
 🚀 How to Run
 
