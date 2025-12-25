@@ -22,7 +22,7 @@ st.write("Upload an image to check if it's a **Cat** or a **Dog**!")
 def load_classifier_model():
     try:
         # REPLACE 'model.keras' WITH YOUR ACTUAL MODEL PATH
-        model_path = 'model.h5' 
+        model_path = 'Model.h5' 
         model = load_model(model_path)
         return model
     except Exception as e:
@@ -75,4 +75,5 @@ if uploaded_file is not None and model is not None:
     st.success(f"Prediction: **{prediction}**")
 
 elif model is None:
+
     st.error("Model not loaded. Please ensure 'model.keras' exists.")
